@@ -42,7 +42,7 @@ Our diagnostic heatmap proved that the model's errors are heavily tied to biolog
 A critical limitation of the current model is its structural dependency on the **uniform, controlled background** (studio lighting/plain backdrops) present in the training dataset. 
 
 * **The Challenge:** While our custom HSV Color Moments and GLCM Texture features perform exceptionally well in isolating the leaf profile against a clean background, they are highly sensitive to noise. In a realistic environment (e.g., a farmer taking a smartphone photo in a field), the background contains soil, weeds, complex shadows, and other non-target plants. The current feature extraction pipeline would struggle to separate these background artifacts from the actual leaf symptoms.
-* **The Solution (Future Work):** To transition this project into a production-ready field application, the next deployment phase will incorporate an automated **Leaf Segmentation Preprocessing Step** (using algorithms like Otsu's Thresholding, GrabCut, or a lightweight semantic segmentation model like U-Net). This will isolate and crop the leaf boundary dynamically, wiping out background noise before features are calculated.
+* **The Solution (Future Work):** To transition this project into a production-ready field application, the next deployment phase will isolate and crop the leaf boundary dynamically, wiping out background noise before features are calculated.
 
 ---
 
