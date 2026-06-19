@@ -16,7 +16,7 @@ An advanced, end-to-end computer vision and tabular machine learning pipeline to
 * Executed data sanity checks using **Z-score anomaly detection** on the Red channel to isolate overexposed ("burnt") field images. These were intentionally retained to train a model highly resilient to direct sunlight and lens glare.
 
 ### 2. Feature Engineering Infrastructure
-Instead of relying on heavy deep learning architectures, this project builds a lightweight, interpretable tabular feature space from $128 \times 128$ images:
+This project builds a lightweight, interpretable tabular feature space from $128 \times 128$ images:
 * **Color Moments (Global):** Extracted Mean, Standard Deviation, and Skewness across RGB and HSV color spaces to map unique disease discoloration (chlorosis, browning, necrosis).
 * **Texture Features (Local):** Computed Grey-Level Co-Occurrence Matrices (**GLCM**) to derive Contrast, Dissimilarity, Homogeneity, Energy, Correlation, and ASM to capture fine-grained surface speckling, fungal mycelium, and lesion structures.
 
