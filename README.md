@@ -55,4 +55,4 @@ A critical limitation of the current model is its structural dependency on the *
 ## 📦 How to Run the Notebook
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+   git clone [https://github.com/andrkalogeropoulos-kaixis/Tomato-Plant-Disease-Diagnosis.git](https://github.com/andrkalogeropoulos-kaixis/Tomato-Plant-Disease-Diagnosis.git)
