@@ -45,12 +45,13 @@ The pipeline dynamically converged at exactly **653 trees**, successfully haltin
 
 ## 📊 Key Insights & Error Diagnostics
 
----
-
-## 📊 Key Insights & Error Diagnostics
-
 ### Confusion Matrix Observations
 Our diagnostic heatmap proved that the model's errors are heavily tied to biological similarities rather than random noise:
+
+<p align="center">
+  <img src="images/confusion_matrix.png" alt="XGBoost Confusion Matrix" width="550">
+</p>
+
 * **The Spot & Mite Overlap:** A minor confusion loop exists between `Target_Spot` and `Spider_mites`, likely because early mite stippling closely mimics the fine micro-texture of young target spot lesions.
 * **Fungal vs. Silk Webs:** The model occasionally confuses the fine, white silk webs of spider mites with the grayish-white fungal mycelium or faded centers of `Septoria_leaf_spot`.
 * **Chlorosis Similarities:** A symmetric mix-up occurs between `Bacterial_spot` and `Tomato_Yellow_Leaf_Curl_Virus` due to the highly overlapping yellow halos present in both conditions.
