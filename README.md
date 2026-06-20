@@ -28,6 +28,7 @@ This project builds a lightweight, interpretable tabular feature space from $128
 
 ### 3. Model Optimization & Iterative Learning
 * Trained an initial parallel Bagging Ensemble (Random Forest) optimized via Grid Search.
+<img src="images/random_forest_n_estimators_optimization.png" alt="Random Forest Hyperparameter Tuning" width="500">
 * Advanced to sequential Gradient Boosting (**XGBoost**) utilizing an **Early Stopping Strategy** (monitored on a 15% training sub-split). The pipeline dynamically converged at exactly **653 trees**, successfully halting before the onset of overfitting.
 
 ---
