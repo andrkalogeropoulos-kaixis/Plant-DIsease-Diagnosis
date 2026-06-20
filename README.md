@@ -5,7 +5,7 @@
 An advanced, end-to-end computer vision and tabular machine learning pipeline to classify 10 distinct categories of tomato leaf conditions (9 diseases + healthy). This project engineers custom color and texture features from raw images and leverages optimized gradient boosting models to deliver highly robust diagnostics.
 
 <p align="center">
-  <img src="images/sample.jpg" alt="Tomato Leaf Late Blight Sample" width="300">
+  <img src="images/sample.png" alt="Tomato Leaf Late Blight Sample" width="300">
 </p>
 
 ## 🚀 Performance Summary
